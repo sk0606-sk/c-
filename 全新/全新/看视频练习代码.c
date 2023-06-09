@@ -49,12 +49,59 @@
 //	return 0;
 //
 //}
+//int main() {
+//	int ch = 0;
+//	while (ch = getchar() != EOF) {
+//		putchar(ch);
+//
+//	}
+//
+//
+//}
+//int main() {
+//	int i = 1;
+//	while (i < 10) {
+//		if (i == 5)
+//		{
+//			break;
+//		}
+//		printf("%d", i);
+//			i++;
+//
+//
+//	}
+//	return 0;
+//}
+//int main() {
+//	int a = 0;
+//	for (a = 1; a <= 10; a++) {
+//		printf("%d\n", a);
+//
+//
+//
+//	}
+//
+//
+//
+//}
+//int main() {
+//	int arr[5] = { 1,2,3,4,5 };
+//	printf("%d", arr[0]);
+//}
 int main() {
-	int ch = 0;
-	while (ch = getchar() != EOF) {
-		putchar(ch);
-
+	int b, c = 1;
+	int d;
+	int a = 0;
+	for (d = 1; d <= 10; d++)
+	{
+		for (b = 1; b <= d; b++)
+		{
+			c *= b;
+		}
+		a += c;
 	}
+	printf("%d", a);
+
 
 
 }
